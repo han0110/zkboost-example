@@ -1,0 +1,10 @@
+[package]
+name = "fibonacci-client"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ere-zkvm-interface = { git = "https://github.com/eth-act/ere", rev = "d15d36aa0a5d552a5159087884e7bea9ea74c745", version = "0.0.15" }
+fibonacci = { version = "0.1.0", path = "../fibonacci" }
+tokio = { version = "1.48.0", features = ["full"] }
+zkboost-client = { git = "https://github.com/eth-act/zkboost", rev = "2ccd0d30babeab37b733d889e7ae4a6f4d0e4b6f", version = "0.1.0" }

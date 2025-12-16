@@ -1,0 +1,5 @@
+[[zkvm]]
+kind = "sp1"
+resource = "cpu"
+program-id = "fibonacci-sp1"
+program = "./fibonacci/fibonacci-sp1"
